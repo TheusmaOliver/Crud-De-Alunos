@@ -9,6 +9,7 @@
 }
 
 body {
+  height: 100%;
   font-size: 62.5%;
 }
 
@@ -162,8 +163,7 @@ footer {
     font-size: 0.6rem;
     width: 5rem;
   }
-
-  main {
-    margin-bottom: 4rem;
+  footer {
+    bottom: -17%;
   }
 }
