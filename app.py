@@ -1,16 +1,11 @@
 from flask import Flask, render_template, request, url_for, redirect
 from flask_sqlalchemy import SQLAlchemy
-import os
-from os.path import join, dirname
-from dotenv import load_dotenv
 
-dotenv_path = join(dirname(__file__), '.env')
-load_dotenv(dotenv_path)
 
-user = os.environ.get("user")
-password = os.environ.get("password")
-host = os.environ.get("host")
-database = os.environ.get("database")
+user = 'llfxwees'
+password = 'QF7I9SRL2Fmh48-sT89sy4rz7dZHaNE3'
+host = 'tuffi.db.elephantsql.com'
+database = 'llfxwees'
 
 app = Flask(__name__)
 

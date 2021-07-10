@@ -137,7 +137,6 @@ footer {
   font-size: clamp(0.6rem, 2vw, 1rem);
   border-top: 1px solid var(--primaryColor);
   text-align: center;
-  overflow: hidden;
 }
 
 @media (min-width: 2000px) {
