@@ -161,4 +161,8 @@ footer {
     font-size: 0.6rem;
     width: 5rem;
   }
+
+  footer {
+    padding: 0.3rem 0 0;
+  }
 }
